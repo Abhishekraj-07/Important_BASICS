@@ -1,0 +1,23 @@
+/*10. Copy elements from one array to another. */
+public class PracticeQno10 {
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+        int[] copiedArr = new int[arr.length];
+
+        for (int i = 0; i < arr.length; i++) {
+            copiedArr[i] = arr[i];
+        }
+
+        System.out.println("Elements in the original array:");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+
+        System.out.println("\nElements in the copied array:");
+        for (int i = 0; i < copiedArr.length; i++) {
+            System.out.print(copiedArr[i] + " ");
+        }
+    }
+
+}
